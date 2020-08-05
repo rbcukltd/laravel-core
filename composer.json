@@ -1,0 +1,20 @@
+{
+    "name": "dapatchi/laravel-core",
+    "type": "library",
+    "description": "A shared library for reusable classes",
+    "require": {
+        "php": "^7.2",
+        "laravel/framework": "^5 || ^6 || ^7",
+        "aws/aws-sdk-php": "^3.133"
+    },
+    "autoload": {
+        "psr-4": {
+            "Dapatchi\\LaravelCore\\": "src/"
+        },
+        "files": [
+            "src/helpers.php"
+        ]
+    },
+    "minimum-stability": "dev",
+    "prefer-stable": true
+}
